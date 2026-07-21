@@ -33,25 +33,9 @@ select {
   font: inherit;
 }
 
-button,
-a {
-  -webkit-tap-highlight-color: transparent;
-}
-
 ::selection {
   background: #e50914;
   color: #ffffff;
-}
-
-.hero-grid {
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0.035) 1px,
-      transparent 1px
-    );
-  background-size: 55px 55px;
 }
 
 ::-webkit-scrollbar {
