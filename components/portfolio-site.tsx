@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import { useState } from "react";
@@ -21,37 +21,37 @@ import {
 const navigation = [
   { label: "Accueil", href: "#accueil" },
   { label: "Services", href: "#services" },
-  { label: "Réalisations", href: "#realisations" },
+  { label: "RÃ©alisations", href: "#realisations" },
   { label: "Showreel", href: "#showreel" },
   { label: "Contact", href: "#contact" },
 ];
 const projects = [
   {
-    title: "Montage face caméra",
-    category: "TikTok • Reels • Shorts",
+    title: "Montage face camÃ©ra",
+    category: "TikTok â€¢ Reels â€¢ Shorts",
     description:
-      "Transformation d’un rush face caméra en contenu dynamique avec recadrage, rythme, habillage graphique, musique et identité visuelle.",
+      "Transformation dâ€™un rush face camÃ©ra en contenu dynamique avec recadrage, rythme, habillage graphique, musique et identitÃ© visuelle.",
     video: "/videos/face-camera-comparison.mp4",
     poster: "/videos/face-camera-thumbnail.webp",
     skills: ["Recadrage", "Rythme", "Habillage graphique"],
   },
   {
     title: "Montage podcast",
-    category: "Podcast • Réseaux sociaux",
+    category: "Podcast â€¢ RÃ©seaux sociaux",
     description:
-      "Transformation d’une séquence podcast en contenu court et adapté aux plateformes sociales.",
+      "Transformation dâ€™une sÃ©quence podcast en contenu court et adaptÃ© aux plateformes sociales.",
     video: "/videos/podcast-comparison.mp4",
     poster: "/videos/podcast-thumbnail.webp",
     skills: ["Format vertical", "Titres", "Sound design"],
   },
   {
-    title: "Publicité cosmétique",
-    category: "Publicité • Produit",
+    title: "PublicitÃ© cosmÃ©tique",
+    category: "PublicitÃ© â€¢ Produit",
     description:
-      "Publicité cosmétique montée et postproduite avec un travail sur le rythme, les couleurs, les textes et l’ambiance visuelle.",
+      "PublicitÃ© cosmÃ©tique montÃ©e et postproduite avec un travail sur le rythme, les couleurs, les textes et lâ€™ambiance visuelle.",
     video: "/videos/cosmetic-comparison.mp4",
     poster: "/videos/cosmetic-thumbnail.webp",
-    skills: ["Colorimétrie", "Storytelling", "Texte publicitaire"],
+    skills: ["ColorimÃ©trie", "Storytelling", "Texte publicitaire"],
   },
 ];
 
@@ -59,9 +59,9 @@ const categories = [
   "TikTok",
   "Instagram Reels",
   "YouTube",
-  "Publicités",
+  "PublicitÃ©s",
   "Podcasts",
-  "Vidéos faceless",
+  "VidÃ©os faceless",
 ];
 
 const services = [
@@ -69,31 +69,31 @@ const services = [
     icon: Smartphone,
     title: "TikTok, Reels et Shorts",
     description:
-      "Des vidéos verticales rythmées avec sous-titres, zooms, B-roll et sound design.",
+      "Des vidÃ©os verticales rythmÃ©es avec sous-titres, zooms, B-roll et sound design.",
   },
   {
     icon: Video,
     title: "Montage YouTube",
     description:
-      "Des vidéos structurées pour maintenir l'attention et améliorer l'expérience du spectateur.",
+      "Des vidÃ©os structurÃ©es pour maintenir l'attention et amÃ©liorer l'expÃ©rience du spectateur.",
   },
   {
     icon: Target,
-    title: "Publicités vidéo",
+    title: "PublicitÃ©s vidÃ©o",
     description:
-      "Des vidéos destinées à présenter et valoriser un produit, une offre ou un service.",
+      "Des vidÃ©os destinÃ©es Ã  prÃ©senter et valoriser un produit, une offre ou un service.",
   },
   {
     icon: Mic2,
     title: "Podcasts et interviews",
     description:
-      "Transformation de contenus longs en extraits courts adaptés aux réseaux sociaux.",
+      "Transformation de contenus longs en extraits courts adaptÃ©s aux rÃ©seaux sociaux.",
   },
   {
     icon: Clapperboard,
-    title: "Vidéos faceless",
+    title: "VidÃ©os faceless",
     description:
-      "Création de vidéos avec voix off, textes, images et séquences d'illustration.",
+      "CrÃ©ation de vidÃ©os avec voix off, textes, images et sÃ©quences d'illustration.",
   },
   {
     icon: Palette,
@@ -104,19 +104,19 @@ const services = [
 ];
 
 const skills = [
-  "Découpage et rythme",
+  "DÃ©coupage et rythme",
   "Sous-titres dynamiques",
   "Transitions",
   "Sound design",
-  "Colorimétrie",
+  "ColorimÃ©trie",
   "Habillage graphique",
 ];
 
 const contactOptions = [
   {
     label: "E-mail",
-    value: "sn9editor@gmail.com",
-    href: "mailto:sn9editor@gmail.com?subject=Demande%20de%20montage%20vid%C3%A9o",
+    value: "sn7editor@gmail.com",
+    href: "mailto:sn7editor@gmail.com?subject=Demande%20de%20montage%20vid%C3%A9o",
     icon: Mail,
   },
   {
@@ -240,19 +240,19 @@ export default function PortfolioSite() {
           <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 lg:grid-cols-2 lg:gap-16 lg:px-8">
             <div>
               <p className="mb-4 text-xs font-bold uppercase tracking-[0.25em] text-[#e50914]">
-                Monteur vidéo créatif
+                Monteur vidÃ©o crÃ©atif
               </p>
 
               <h1 className="text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-                Votre contenu mérite{" "}
+                Votre contenu mÃ©rite{" "}
                 <span className="bg-gradient-to-r from-[#f7f7f7] to-[#e50914] bg-clip-text text-transparent">
                   mieux qu&apos;un simple montage.
                 </span>
               </h1>
 
               <p className="mt-6 max-w-xl text-base leading-relaxed text-[#a1a1aa] sm:text-lg">
-                SN Editor transforme vos rushs en vidéos modernes, dynamiques et
-                conçues pour capter l&apos;attention, valoriser votre message et
+                SN Editor transforme vos rushs en vidÃ©os modernes, dynamiques et
+                conÃ§ues pour capter l&apos;attention, valoriser votre message et
                 renforcer votre image.
               </p>
 
@@ -299,7 +299,7 @@ export default function PortfolioSite() {
           <div className="mx-auto max-w-7xl px-5 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl">
-                Des montages adaptés à chaque objectif.
+                Des montages adaptÃ©s Ã  chaque objectif.
               </h2>
             </div>
 
@@ -332,16 +332,16 @@ export default function PortfolioSite() {
   <div className="mx-auto max-w-7xl">
     <div className="max-w-3xl">
       <p className="text-sm font-bold uppercase tracking-[0.3em] text-red-500">
-        Avant / Après
+        Avant / AprÃ¨s
       </p>
 
       <h2 className="mt-4 text-4xl font-black leading-tight sm:text-5xl">
-        Des rushs simples transformés en contenus professionnels.
+        Des rushs simples transformÃ©s en contenus professionnels.
       </h2>
 
       <p className="mt-6 text-lg leading-8 text-zinc-400">
-        Découvrez comment SN Editor améliore le rythme, l’image, le son
-        et la présentation d’un contenu brut.
+        DÃ©couvrez comment SN Editor amÃ©liore le rythme, lâ€™image, le son
+        et la prÃ©sentation dâ€™un contenu brut.
       </p>
     </div>
 
@@ -360,12 +360,12 @@ export default function PortfolioSite() {
     className="h-full w-full object-contain"
   >
     <source src={project.video} type="video/mp4" />
-    Votre navigateur ne prend pas en charge la vidéo.
+    Votre navigateur ne prend pas en charge la vidÃ©o.
   </video>
 </div>
 
             <span className="pointer-events-none absolute left-4 top-4 rounded-full border border-red-500/30 bg-black/80 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.15em] text-red-400 backdrop-blur">
-              Montage réalisé par SN Editor
+              Montage rÃ©alisÃ© par SN Editor
             </span>
           </div>
 
@@ -398,9 +398,9 @@ export default function PortfolioSite() {
     </div>
 
     <p className="mt-8 max-w-4xl text-sm leading-6 text-zinc-500">
-      Les rushs bruts utilisés dans ces démonstrations proviennent de
-      banques de vidéos libres de droits. Le montage, l’habillage, la
-      postproduction et les versions Avant / Après ont été réalisés par
+      Les rushs bruts utilisÃ©s dans ces dÃ©monstrations proviennent de
+      banques de vidÃ©os libres de droits. Le montage, lâ€™habillage, la
+      postproduction et les versions Avant / AprÃ¨s ont Ã©tÃ© rÃ©alisÃ©s par
       SN Editor.
     </p>
   </div>
@@ -419,8 +419,8 @@ export default function PortfolioSite() {
                 Showreel officiel SN Editor
               </h2>
               <p className="mt-4 text-base leading-relaxed text-[#a1a1aa] sm:text-lg">
-                Une présentation de mon univers créatif et des techniques utilisées
-                pour produire des vidéos modernes, dynamiques et mémorables.
+                Une prÃ©sentation de mon univers crÃ©atif et des techniques utilisÃ©es
+                pour produire des vidÃ©os modernes, dynamiques et mÃ©morables.
               </p>
 
               <ul className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -453,10 +453,10 @@ export default function PortfolioSite() {
           <div className="mx-auto max-w-7xl px-5 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-3xl font-black tracking-tight sm:text-4xl">
-                Prêt à donner plus de force à votre contenu ?
+                PrÃªt Ã  donner plus de force Ã  votre contenu ?
               </h2>
               <p className="mt-4 text-base text-[#a1a1aa] sm:text-lg">
-                Présentez votre projet et recevez une proposition adaptée à vos
+                PrÃ©sentez votre projet et recevez une proposition adaptÃ©e Ã  vos
                 besoins.
               </p>
             </div>
@@ -497,7 +497,7 @@ export default function PortfolioSite() {
             height={70}
             className="h-10 w-auto object-contain"
           />
-          <p className="text-sm text-[#a1a1aa]">Montage vidéo professionnel</p>
+          <p className="text-sm text-[#a1a1aa]">Montage vidÃ©o professionnel</p>
 
           <div className="flex flex-wrap items-center justify-center gap-6">
             <a
@@ -510,19 +510,20 @@ export default function PortfolioSite() {
               YouTube
             </a>
             <a
-              href="mailto:sn9editor@gmail.com?subject=Demande%20de%20montage%20vid%C3%A9o"
+              href="mailto:sn7editor@gmail.com?subject=Demande%20de%20montage%20vid%C3%A9o"
               className="inline-flex items-center gap-2 text-sm text-[#a1a1aa] transition-colors hover:text-[#f7f7f7]"
             >
               <Mail className="h-4 w-4 text-[#e50914]" />
-              sn9editor@gmail.com
+              sn7editor@gmail.com
             </a>
           </div>
 
           <p className="text-xs text-[#a1a1aa]/70">
-            © 2026 SN Editor. Tous droits réservés.
+            Â© 2026 SN Editor. Tous droits rÃ©servÃ©s.
           </p>
         </div>
       </footer>
     </div>
   );
 }
+
